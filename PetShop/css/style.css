@@ -1,0 +1,31 @@
+/*header */
+.headerSuperior {
+    background-color: black;
+    background-size: 100%;
+    color :blanchedalmond;
+    text-align: left;
+
+}
+.foatDerecha {
+    text-align: right;
+
+}
+
+.logo{
+    background-color: #F0A83E;
+    color:#FFFFFF;  
+    }
+    span{
+        color: black;
+    }
+
+.navegacion{
+    color: black;
+    text-align: right;
+}
+
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+padding: 10px;
+}
+
+/* Header */
+.boxTittleHeroes{
+    background-color: #00669F;
+    width: 100%;
+    height: 70px;
+}
+
+.tittleHeroes{
+    font-size: 40px;
+    padding: 14px 668px 14px 10px;
+    z-index: 999;
+}
+
+/* Batman */ 
+
+.fondoBatman{
+    position: absolute
+}
+
+.batmanProfile{
+    position: absolute;
+}
+
+.heartBatman{
+    position: absolute;
+}
+
+.tittleBatman{
+    position: absolute;
+}
+
+.boxBatman{
+    position: absolute;
+}
+
+
+
+
+/* Estilos boxes */
+
+
+
+
+
+
+/* Footer */
+.footer{
+    background-color:#00669F;
+    width: 100%;
+}
