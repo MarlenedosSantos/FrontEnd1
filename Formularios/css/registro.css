@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla&display=swap')
+
+*{
+    margin:0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --primer-color:#00669F;
+    --segundo-color: #1CD1B0;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+.topBan{
+    margin: 0%;
+    background-color: var(--segundo-color);
+    font-size: 12px;
+    padding: 1px;
+    padding-left: 20px;
+}
+
+.tituloPrin{
+    margin: 0%;
+    background-color: var(--primer-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 6px 0px;
+    color: white;
+    font-weight: 100;
+}
+
+/*MAIN*/
+h1{
+    font-size: 55px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+
+.form{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+    background-color: 1px solid black;
+}
+
+.registro{
+    display: flex;
+    color: var(--primer-color);
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.resetear{
+border-radius: 50px;
+border: none;
+background-color: gray;
+color: white;
+font-weight: 110;
+font-size: 1.1rem;
+margin-top: 40px;
+}
+
+.registrar[type= submit]{
+    background-color: var(--segundo-color);
+    border-radius: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.registrar[type= submit]:hover{
+    background-color:var(--primer-color);
+    color: white;
+}
+
+
+footer{
+    background-color: var(--primer-color);
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    padding: 1px 0px;
+}
