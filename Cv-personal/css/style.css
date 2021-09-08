@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(ellipse at top, #f1ccde, transparent), radial-gradient(ellipse at bottom, #5595dfb6, transparent);
+}
+
+/*HEADER*/
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.nombre {
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    border: 2px;
+    background-color: rgba(33, 172, 246, 0.10);
+}
+
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*MAIN*/
+
+button {
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(33, 171, 246, 0.2);
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgba(62, 176, 230, 0.4);
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    background-color: rgba(246, 33, 172, 0.08);
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+dd {
+    padding-bottom: 15px;
+    margin-inline-start: 100px;
+}
+
+dl {
+    line-height: 22px;
+}
+
+
+
+
+/*FOOTER*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
